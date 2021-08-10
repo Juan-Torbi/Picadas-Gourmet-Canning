@@ -1,0 +1,53 @@
+.productosimg{
+    display: grid;
+    grid-template-areas: 
+    "img12 p1 img1"
+    "img11 p4 img10"
+    "img7 p3 img9"
+    ;
+  }
+  .img12{
+    grid-area: img12;
+    width: 700px;
+  }
+  .p1{
+    grid-area: p1;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .img1{
+    grid-area: img1;
+    width: 700px;
+    height: 54vh;
+  }
+  .img11{
+    grid-area: img11;
+    width: 700px;
+  }
+  .p4{
+    grid-area: p4;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .img10{
+    grid-area: img10;
+    width: 700px;
+  }
+  .img7{
+    grid-area: img7;
+    width: 700px;
+    transition: height 2s, width 3s;
+  }
+  .p3{
+    grid-area: p3;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .img9{
+    grid-area: img9;
+    width: 700px;
+  }
+  .consulta{
+    text-align: center;
+    font-size: 5rem;
+  }

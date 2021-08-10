@@ -1,0 +1,162 @@
+.body {
+  background-color: aquamarine; }
+
+.nav-link {
+  color: black; }
+
+.footer {
+  background-color: #00ff95; }
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: black;
+  background-color: white; }
+
+.h4contactos {
+  text-align: center;
+  margin: 50px;
+  font-size: 100px; }
+
+.redeslogos {
+  display: grid;
+  grid-template-areas: "ImgIG IG" "ImgFB FB";
+  justify-content: left;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px; }
+
+.imgig {
+  grid-area: ImgIG;
+  height: 300px;
+  width: 300px; }
+
+.ig {
+  grid-area: IG;
+  font-size: 100px;
+  text-decoration: none;
+  color: black; }
+
+.imgfb {
+  grid-area: ImgFB;
+  height: 300px;
+  width: 300px;
+  margin-bottom: 50px; }
+
+.fb {
+  grid-area: FB;
+  font-size: 100px;
+  text-decoration: none;
+  color: black; }
+
+/*mirar lo de la media*/
+@media only screen and (max-width: 767px) {
+  .h4contactos {
+    text-align: center;
+    margin: 50px;
+    font-size: 50px; }
+  .redeslogos {
+    display: grid;
+    grid-template-areas: "ImgIG IG" "ImgFB FB";
+    justify-content: left;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px; }
+  .imgig {
+    grid-area: ImgIG;
+    height: 50px;
+    width: 50px; }
+  .ig {
+    grid-area: IG;
+    font-size: 50px;
+    text-decoration: none;
+    color: black; }
+  .imgfb {
+    grid-area: ImgFB;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 50px; }
+  .fb {
+    grid-area: FB;
+    font-size: 50px;
+    text-decoration: none;
+    color: black; } }
+
+.nosotrostexto {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch; }
+
+.parrafonosotros {
+  font-size: 20px;
+  text-align: justify;
+  margin-right: 20px; }
+
+.imgnosotros {
+  height: 1000px;
+  width: 1000px; }
+
+.productosimg {
+  display: grid;
+  grid-template-areas: "img12 p1 img1" "img11 p4 img10" "img7 p3 img9"; }
+
+.img12 {
+  grid-area: img12;
+  width: 700px; }
+
+.p1 {
+  grid-area: p1;
+  text-align: center;
+  font-size: 3rem; }
+
+.img1 {
+  grid-area: img1;
+  width: 700px;
+  height: 54vh; }
+
+.img11 {
+  grid-area: img11;
+  width: 700px; }
+
+.p4 {
+  grid-area: p4;
+  text-align: center;
+  font-size: 3rem; }
+
+.img10 {
+  grid-area: img10;
+  width: 700px; }
+
+.img7 {
+  grid-area: img7;
+  width: 700px;
+  transition: height 2s, width 3s; }
+
+.p3 {
+  grid-area: p3;
+  text-align: center;
+  font-size: 3rem; }
+
+.img9 {
+  grid-area: img9;
+  width: 700px; }
+
+.consulta {
+  text-align: center;
+  font-size: 5rem; }
+
+.envios {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  text-align: center; }
+
+h5 {
+  font-size: 100px; }
+
+.hacemos {
+  font-size: 50px; }
+
+.cualquier {
+  font-size: 50px; }
+
+.iframe {
+  display: flex;
+  justify-content: center; }

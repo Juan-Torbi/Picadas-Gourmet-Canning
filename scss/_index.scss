@@ -1,0 +1,17 @@
+$aguamarina:aquamarine;
+$blanco:white;
+$negro:black;
+
+.body{
+    background-color:$aguamarina;
+}
+.nav-link{
+    color:black;
+}
+.footer{
+    background-color: rgb(0, 255, 149);
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: $negro;
+    background-color: $blanco;
+}

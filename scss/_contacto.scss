@@ -1,0 +1,81 @@
+.h4contactos{
+    text-align: center;
+    margin: 50px;
+    font-size: 100px;  
+}
+.redeslogos{
+    display: grid;
+    grid-template-areas:
+    "ImgIG IG"
+    "ImgFB FB"
+    ;
+    justify-content: left;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+}
+.imgig{
+    grid-area: ImgIG;
+    height: 300px;
+    width: 300px;
+}
+.ig{
+    grid-area: IG;
+    font-size: 100px;
+    text-decoration: none;
+    color: $negro;
+}
+.imgfb{
+    grid-area: ImgFB;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 50px;
+}  
+.fb{
+    grid-area: FB;
+    font-size: 100px;
+    text-decoration: none;
+    color: $negro;
+}  
+/*mirar lo de la media*/
+@media only screen and (max-width:767px){
+    .h4contactos{
+        text-align: center;
+        margin: 50px;
+        font-size: 50px;  
+    }
+    .redeslogos{
+        display: grid;
+        grid-template-areas:
+        "ImgIG IG"
+        "ImgFB FB"
+        ;
+        justify-content: left;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    
+    }
+    .imgig{
+        grid-area: ImgIG;
+        height: 50px;
+        width: 50px;
+    }
+    .ig{
+        grid-area: IG;
+        font-size: 50px;
+        text-decoration: none;
+        color: $negro;
+    }
+    .imgfb{
+        grid-area: ImgFB;
+        height: 50px;
+        width: 50px;
+        margin-bottom: 50px;
+    }  
+    .fb{
+        grid-area: FB;
+        font-size: 50px;
+        text-decoration: none;
+        color: $negro;
+    }  
+}
