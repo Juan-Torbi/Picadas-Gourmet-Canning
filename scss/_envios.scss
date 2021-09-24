@@ -2,19 +2,32 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 300px;
     text-align: center;
 }
 h5{
     font-size: 100px;
+    color: burlywood;
 }
 .hacemos{
     font-size: 50px;
+    color: burlywood;
 }
 .cualquier{
     font-size: 50px;
+    color: burlywood;
 }
 .iframe{
     display: flex;
     justify-content: center;
+}
+@media only screen and (max-width:767px){
+    h5{
+        font-size: 50px;
+    }
+    .hacemos{
+        font-size: 25px;
+    }
+    .cualquier{
+        font-size: 25px;
+    }
 }

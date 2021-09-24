@@ -1,53 +1,198 @@
-.productosimg{
-    display: grid;
-    grid-template-areas: 
-    "img12 p1 img1"
-    "img11 p4 img10"
-    "img7 p3 img9"
-    ;
-  }
-  .img12{
-    grid-area: img12;
-    width: 700px;
-  }
-  .p1{
-    grid-area: p1;
+p{
+  font-family: 'Hina Mincho', serif;
+}
+.NuestrosProductos{
+  display: flex;
+  justify-content: center;
+}
+.TextoProductos1{
+  h4{
     text-align: center;
-    font-size: 3rem;
+    font-size: 90px;
+    background-color: burlywood;
+    margin: 30px 200px;
+
   }
-  .img1{
-    grid-area: img1;
-    width: 700px;
-    height: 54vh;
-  }
-  .img11{
-    grid-area: img11;
-    width: 700px;
-  }
-  .p4{
-    grid-area: p4;
+  h2{
     text-align: center;
-    font-size: 3rem;
+    font-size: 50px;
+    background-color: burlywood;
+    margin: 30px 200px;
   }
-  .img10{
-    grid-area: img10;
-    width: 700px;
-  }
-  .img7{
-    grid-area: img7;
-    width: 700px;
-    transition: height 2s, width 3s;
-  }
-  .p3{
-    grid-area: p3;
+}
+.PrimerDivProdcutos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: blanchedalmond;
+  padding: 30px;
+  margin: 30px 200px;
+  flex-wrap: wrap;
+
+  
+    .img1{ 
+      height: 360px;
+
+    }
+    .img2{
+      height: 360px;
+
+    }
+}
+.TextoProducto2{
+  h2{
     text-align: center;
-    font-size: 3rem;
+    font-size: 50px;
+    background-color: burlywood;
+    margin: 30px 200px;
   }
-  .img9{
-    grid-area: img9;
-    width: 700px;
-  }
-  .consulta{
+}
+.SegundoDivProductos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: blanchedalmond;
+  padding: 30px;
+  margin: 30px 200px;
+  flex-wrap: wrap;
+
+
+      .img3{
+        height: 360px;
+      }
+      .img4{
+        height: 360px;
+      }
+}
+.TextoProductos3{
+  h2{
     text-align: center;
-    font-size: 5rem;
+    font-size: 50px;
+    background-color: burlywood;
+    margin: 30px 200px;
   }
+}
+.TercerDivProductos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: blanchedalmond;
+  padding: 30px;
+  margin: 30px 200px 30px 200px;
+  flex-wrap: wrap;
+
+
+  .img5{
+    height: 360px;
+  }
+  .img6{
+    height: 360px;
+  }
+
+
+}
+.TextoProductos4{
+  h2{
+    text-align: center;
+    font-size: 50px;
+    background-color: burlywood;
+    margin: 30px 200px 0px 200px;
+  }
+}
+@media only screen and (max-width:767px){
+  .TextoProductos1{
+    h4{
+      text-align: center;
+      font-size: 50px;
+      background-color: burlywood;
+      margin: 15px 100px;
+  
+    }
+    h2{
+      text-align: center;
+      font-size: 25px;
+      background-color: burlywood;
+      margin: 15px 100px;
+    }
+  }
+  .PrimerDivProdcutos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: blanchedalmond;
+    padding: 15px;
+    margin: 15px 25px;
+    flex-wrap: wrap;
+  
+    
+      .img1{ 
+        height: 150px;
+  
+      }
+      .img2{
+        height: 150px;
+  
+      }
+  }
+  .TextoProducto2{
+    h2{
+      text-align: center;
+      font-size: 25px;
+      background-color: burlywood;
+      margin: 30px 100px;
+    }
+  }
+  .SegundoDivProductos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: blanchedalmond;
+    padding: 15px;
+    margin: 15px 25px;
+    flex-wrap: wrap;
+  
+  
+        .img3{
+          height: 150px;
+        }
+        .img4{
+          height: 150px;
+        }
+  }
+  .TextoProductos3{
+    h2{
+      text-align: center;
+      font-size: 25px;
+      background-color: burlywood;
+      margin: 15px 100px;
+    }
+  }
+  .TercerDivProductos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: blanchedalmond;
+    padding: 15px;
+    margin: 15px 25px 15px 25px;
+    flex-wrap: wrap;
+  
+  
+    .img5{
+      height: 150px;
+    }
+    .img6{
+      height: 150px;
+    }
+  
+  
+  }
+  .TextoProductos4{
+    h2{
+      text-align: center;
+      font-size: 25px;
+      background-color: burlywood;
+      margin: 15px 100px 0px 100px;
+    }
+  }
+
+}

@@ -1,15 +1,74 @@
-
+.h5UnPoco{
+    text-align: center;
+    font-size: 90px;
+    color: burlywood;
+}
 .nosotrostexto{
     display: flex;
     flex-direction: row;
-    align-items: stretch;
+    justify-content: space-evenly;
+    margin: 50px 300px 0px 300px;
+    background-color: burlywood;
+    
 }
 .parrafonosotros{
-    font-size: 20px;
+    font-size: 30px;
     text-align: justify;
-    margin-right: 20px;
+    padding: 40px;
+    font-family: 'Hina Mincho', serif;
 }
 .imgnosotros{
-    height: 1000px;
-    width: 1000px;
+    height: 900px;
+    width: 900px;
+}
+.FondoDiv{
+    background-image: url(../img/fondo2.jpg);
+}
+@media only screen and (max-width:1066px){
+    .imgnosotros{
+        width: 500px;
+        height: 500px;
+    }
+    .parrafonosotros{
+        font-size: 15px;
+        text-align: justify;
+        padding: 20px;
+    }
+    .nosotrostexto{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 50px 150px 0px 150px;
+        background-color: burlywood;
+        
+    }
+    .h5UnPoco{
+        text-align: center;
+        font-size: 50px;
+        color: burlywood;
+    }
+}
+@media only screen and (max-width:767px){
+    .imgnosotros{
+        width: 250px;
+        height: 250px;
+    }
+    .parrafonosotros{
+        font-size: 9px;
+        text-align: justify;
+        padding: 10px;
+    }
+    .nosotrostexto{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0px 0px 0px 0px;
+        background-color: burlywood;
+        
+    }
+    .h5UnPoco{
+        text-align: center;
+        font-size: 25px;
+        color: burlywood;
+    }
 }

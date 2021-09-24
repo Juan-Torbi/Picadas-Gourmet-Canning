@@ -2,16 +2,49 @@ $aguamarina:aquamarine;
 $blanco:white;
 $negro:black;
 
-.body{
-    background-color:$aguamarina;
+.sectioncontenido{
+    background-image: url(../img/fondo2.jpg);
 }
 .nav-link{
     color:black;
 }
 .footer{
-    background-color: rgb(0, 255, 149);
+   background-color: rgb(128, 128, 128);
+   text-align: center;
+   .ParrafoFooter1{
+       font-size: 35px;
+   }
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: $negro;
-    background-color: $blanco;
+    background-color: wheat;
+    font-size: 24px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    .imglogo{
+        width: 100%;
+    }
+}
+.NavFondo{
+    background-color: burlywood;
+    margin-bottom: 15px;
+    font-size: 24px;
+    
+}
+.imgfooter{
+    display: flex;
+    justify-content: center;
+}
+.ImgArriba{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width:767px){
+    .ImgArriba{
+        display: flex;
+        justify-content: center;
+        height: 300px;
+    }
 }
